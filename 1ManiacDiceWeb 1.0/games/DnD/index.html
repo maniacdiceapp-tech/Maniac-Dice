@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dungeons and Dragons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Dungeons and Dragons Roller</h1>
+
+    <label>Modifier</label>
+    <input type="number" id="modifier" value="0">
+
+    <label>How many dice?</label>
+    <input type="number" id="quan" value="1">
+
+    <div id="button">
+        <button onclick="roll(4)">D4</button>
+        <button onclick="roll(6)">D6</button>
+        <button onclick="roll(8)">D8</button>
+        <button onclick="roll(10)">d10</button>
+        <button onclick="rollPD()">2d10 (percentile)</button>
+        <button onclick="roll(100)">D100</button>
+        <button onclick="roll(12)">D12</button>
+        <button onclick="roll(20)">D20</button>
+        <button onclick="rollAD()">Advantage / Disadvantage</button>
+        <button onclick="window.location.href='Stats/index.html'" class="stats-button">Stats Roller</button>
+    </div>
+
+    <h2 id="result">Result will appear here</h2>
+    <script src="app.js"></script>
+<footer>
+    <p>Have ideas or feedback? <a href="https://forms.gle/78EQs72RQKD3heCv5" target="_blank">Tell us here!</a></p>
+    <p>© 2025 Maniac Dice</p>
+    <p>Maniac Dice is not affileated with any Table Top Roleplaying Game, or any other company, to include but not limited to Hasbro, Wisards of the Coast, or Dungeons and Dragons.</p>
+    <p>This project is licensed under the Apache License 2.0</p>
+</footer>
+</body>
+</html>
