@@ -3,7 +3,7 @@ body {
     background: #00bfff;
     background-image: url("images/daggerheart-logo.png");
     background-repeat: no-repeat;
-    background-position: 50% 275px;
+    background-position: 50% 375px;
     background-size: 350px auto;
     text-align: center;
     padding: 20px;
@@ -71,4 +71,5 @@ footer a:hover {
     .roller-section {
         flex-direction: column;
     }
+
 }
